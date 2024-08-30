@@ -14,6 +14,6 @@ int main(void) {
   resultado = num1 * num2;
 
   // Saida do Resultado
-  printf("O resultado da operação é: %f\n", resultado);
+  printf("O resultado da operação é: %.4f\n", resultado);
   return 0;
 }
