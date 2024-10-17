@@ -15,7 +15,7 @@ int main() {
   char senha[100];
   char caracteres[] = "QWERTYUIOPASDFGHJKLÇZXCVBNMqwertyuiopçlkjhgfdsazxcvbnm1234567890-[];.,º|!@#$%*()_+}";
 
-  srand(time(NULL)); // ele 
+  srand(time(NULL)); // ele está resetando tempo para função continuar sorteando
   
   printf("\n--- BEM-VINDO AO GERADOR DE SENHAS ---\n");
   printf("Digite o tamanho da sua senha: ");
